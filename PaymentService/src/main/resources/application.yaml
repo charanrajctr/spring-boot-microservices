@@ -4,9 +4,12 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://${DB_HOST:localhost}:3306/paymentdb
+    url: jdbc:mysql://localhost:3306/paymentdb
     username: root
-    password: root
+    password: charanraj
+#    url: jdbc:mysql://${DB_HOST:localhost}:3306/paymentdb
+#    username: root
+#    password: root
     driverClassName: com.mysql.cj.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQL57InnoDBDialect

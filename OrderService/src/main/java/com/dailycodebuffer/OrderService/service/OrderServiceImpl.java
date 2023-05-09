@@ -9,7 +9,7 @@ import com.dailycodebuffer.OrderService.external.response.PaymentResponse;
 import com.dailycodebuffer.OrderService.model.OrderRequest;
 import com.dailycodebuffer.OrderService.model.OrderResponse;
 import com.dailycodebuffer.OrderService.repository.OrderRepository;
-import com.dailycodebuffer.ProductService.model.ProductResponse;
+import com.dailycodebuffer.OrderService.model.ProductResponse;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
